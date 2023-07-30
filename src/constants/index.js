@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  contact,
 } from "../assets";
 
 export const navLinks = [
@@ -173,24 +174,24 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
+    name: "himeshparashar",
+    designation: "Github",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
+    name: "Himesh Parashar",
+    designation: "LinkedIn",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
+    name: "himesh_dev",
+    designation: "Twitter",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
@@ -198,16 +199,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Freedemy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Freedemy is a one-of-a-kind website that curates and displays FREE courses from Udemy, the renowned online learning platform. Discover an ever-updating selection of free courses. ",
     tags: [
       {
-        name: "react",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ejs",
         color: "green-text-gradient",
       },
       {
@@ -216,49 +217,75 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://freedemy.me/",
   },
   {
-    name: "Job IT",
+    name: "3D-Shirt-Designer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A 3D T-Shirt Designer that allows users to design their own T-Shirt and order it. The user can choose the color of the T-Shirt, add logo, and add images to the T-Shirt.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://3d-project-six.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Training Paws",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Training Paws is a mobile application that helps dog owners to train their dogs. The app provides a list of dog training articles.Our pet training app helps dog owners train their pets effectively through a series of modules and Information.",
     tags: [
       {
-        name: "nextjs",
+        name: "android",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "flutter",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "dart",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/himeshparashar/StudyPods-v3.0/tree/main/SP0302/training_paws",
+  },
+  {
+    name: "Contact Management",
+    description:
+      "A contact management application that allows users to manage their contacts. The user can add, edit, and delete contacts. The user can also search for contacts. Users can login and access their own contacts.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "authentication",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "api",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: contact,
+    source_code_link: "https://github.com/himeshparashar/mycontacts-backened",
   },
 ];
 

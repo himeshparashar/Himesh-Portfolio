@@ -55,8 +55,11 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>WHAT I HAVE DONE SO FAR</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <p className={styles.sectionSubText}>
+          {" "}
+          Celebrating Milestones and Successes
+        </p>
+        <h2 className={styles.sectionHeadText}>Achievements.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
