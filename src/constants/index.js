@@ -176,24 +176,27 @@ const testimonials = [
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "himeshparashar",
     designation: "Github",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "https://github.com/himeshparashar",
+    image:
+      "https://w7.pngwing.com/pngs/914/758/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail.png",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Himesh Parashar",
     designation: "LinkedIn",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "https://www.linkedin.com/in/himeshparashar/",
+    image:
+      "https://spng.pngfind.com/pngs/s/57-571935_linkedin-icon-vector-png-linkedin-circle-logo-transparent.png",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "himesh_dev",
     designation: "Twitter",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "https://twitter.com/himesh_dev",
+    image:
+      "https://www.vhv.rs/dpng/d/146-1461722_twitter-circle-twitter-logo-png-transparent-png.png",
   },
 ];
 
