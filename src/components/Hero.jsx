@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
+// import { Suspense } from "react";
+// import { Image } from "@react-three/drei";
+import { scene } from "../assets";
 
 const Hero = () => {
   return (
@@ -22,7 +25,22 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+
+      {/* <Suspense fallback={<div>Loading 3D content...</div>}> */}
+      {/* <ComputersCanvas /> */}
+
+      <div className="flex justify-center items-center pt-80">
+        <img
+          className=""
+          src={scene}
+          width={600}
+          height={600}
+          alt="Hero Image"
+        />
+      </div>
+
+      {/* </Suspense> */}
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:botton-10 bottom-32 w-full flex justify-center items-center ">
         <a href="#about">
