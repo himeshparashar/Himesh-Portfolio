@@ -31,6 +31,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import contact from "./contact.png";
+import happpydaze from './happydaze.png';
+import devoverflow from './devoverflow.png';
 
 export {
   logo,
@@ -63,4 +65,6 @@ export {
   tripguide,
   contact,
   scene,
+  happpydaze,
+  devoverflow
 };
