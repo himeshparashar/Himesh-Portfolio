@@ -20,6 +20,8 @@ import {
   tesla,
   shopify,
   carrent,
+  threads,
+  summaize,
   jobit,
   tripguide,
   threejs,
@@ -201,6 +203,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Threads Community",
+    description:
+      "Freedemy is a one-of-a-kind website that curates and displays FREE courses from Udemy, the renowned online learning platform. Discover an ever-updating selection of free courses. ",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: threads,
+    source_code_link: "https://community-seven-psi.vercel.app/",
+  },
+  {
+    name: "Summaize AI",
+    description:
+      "Freedemy is a one-of-a-kind website that curates and displays FREE courses from Udemy, the renowned online learning platform. Discover an ever-updating selection of free courses. ",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: summaize,
+    source_code_link: "https://community-seven-psi.vercel.app/",
+  },
   {
     name: "Freedemy",
     description:

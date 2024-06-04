@@ -27,12 +27,16 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import threads from "./threads.png";
+import summaize from "./summaize.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import contact from "./contact.png";
 
 export {
+  summaize,
+  threads,
   logo,
   backend,
   creator,
