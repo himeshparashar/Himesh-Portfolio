@@ -26,6 +26,8 @@ import {
   tripguide,
   threejs,
   contact,
+  happpydaze,
+  devoverflow,
 } from "../assets";
 
 export const navLinks = [
@@ -265,6 +267,48 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://freedemy.me/",
+  },
+  {
+    name: "Happy Daze",
+    description:
+      "Navigate Your Thoughts, Track Your Mind: Your Mental Wellness Companion. Our mood tracking and counselling platform that that goes beyond data collection . ",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: happpydaze,
+    source_code_link: "https://happydaze.vercel.app/",
+  },
+  {
+    name: "Dev Overflow",
+    description:
+       'Dev Overflow: Your developer Q&A hub. An open-source Stack Overflow clone for programmers to ask, answer, and collaborate. ',
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: devoverflow,
+    source_code_link: "https://stackoverflow-nextjs-gilt.vercel.app/",
   },
   {
     name: "3D-Shirt-Designer",
